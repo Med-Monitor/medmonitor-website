@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Smartphone, Star, Download } from "lucide-react";
+import { Star, Download } from "lucide-react";
 
 const Index = () => {
   return (
@@ -62,8 +62,12 @@ const Index = () => {
       <section id="download" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="bg-blue-600 p-4 rounded-full w-20 h-20 mx-auto mb-8 flex items-center justify-center">
-              <Smartphone className="h-10 w-10 text-white" />
+            <div className="flex justify-center mb-8">
+              <img 
+                src="/lovable-uploads/a912eb4c-9c07-4295-87e4-0f1e17b085a3.png" 
+                alt="MedMonitor Icon" 
+                className="h-20 w-20"
+              />
             </div>
             
             <h2 className="text-4xl font-bold text-gray-900 mb-6">

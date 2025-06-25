@@ -1,4 +1,3 @@
-
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -9,14 +8,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/a912eb4c-9c07-4295-87e4-0f1e17b085a3.png" 
-              alt="MedMonitor Icon" 
-              className="h-8 w-8"
-            />
-            <img 
               src="/lovable-uploads/5daef2c4-67a8-4806-8b33-9de91ecdf7b4.png" 
               alt="MedMonitor Logo" 
-              className="h-8"
+              className="h-24"
             />
           </div>
           
