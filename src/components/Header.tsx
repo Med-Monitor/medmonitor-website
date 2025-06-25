@@ -1,5 +1,5 @@
 
-import { Stethoscope, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -8,10 +8,16 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="bg-blue-600 p-2 rounded-lg">
-              <Stethoscope className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-2xl font-bold text-blue-900">MedMonitor</span>
+            <img 
+              src="/lovable-uploads/a912eb4c-9c07-4295-87e4-0f1e17b085a3.png" 
+              alt="MedMonitor Icon" 
+              className="h-8 w-8"
+            />
+            <img 
+              src="/lovable-uploads/5daef2c4-67a8-4806-8b33-9de91ecdf7b4.png" 
+              alt="MedMonitor Logo" 
+              className="h-8"
+            />
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

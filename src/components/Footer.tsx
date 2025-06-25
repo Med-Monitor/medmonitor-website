@@ -1,5 +1,5 @@
 
-import { Stethoscope, Mail, Shield, FileText } from "lucide-react";
+import { Mail, Shield, FileText } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,10 +8,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Stethoscope className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold">MedMonitor</span>
+              <img 
+                src="/lovable-uploads/a912eb4c-9c07-4295-87e4-0f1e17b085a3.png" 
+                alt="MedMonitor Icon" 
+                className="h-8 w-8"
+              />
+              <img 
+                src="/lovable-uploads/5daef2c4-67a8-4806-8b33-9de91ecdf7b4.png" 
+                alt="MedMonitor Logo" 
+                className="h-8"
+              />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Helping families manage medications safely and effectively. 
