@@ -24,9 +24,11 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg">
-              Download Now
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg" asChild>
+              <a href="https://apps.apple.com/au/app/med-monitor/id6480152154" target="_blank" rel="noopener noreferrer">
+                Download Now
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-blue-200 text-blue-700 hover:bg-blue-50">
               Learn More
